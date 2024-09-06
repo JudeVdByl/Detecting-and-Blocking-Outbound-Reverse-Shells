@@ -64,6 +64,9 @@ I ran Snort in **inline mode** to apply the IPS rule and block the malicious tra
 snort -c /etc/snort/snort.conf -Q --daq afpacket -i eth0:eth1 -A full -l /var/log/snort/
 ```
 
+![image](https://github.com/user-attachments/assets/37b3fe04-1fda-4781-b81c-0da07694ec8b)
+
+
 ### 5. **Success!**
 After running Snort with the new rule, I successfully blocked the outbound attack, and a flag appeared on my desktop:
 
